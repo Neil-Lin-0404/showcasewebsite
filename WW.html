@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WW.css"> <!-- 引入 CSS 文件 -->
+</head>
+<body>
+    <div class="container">
+        <div class="upper">
+            <h1>Weather App</h1> <!-- 標題 -->
+            <input type="text" placeholder="Enter City Name" id="inp"><br> <!-- 城市名稱輸入框 -->
+            <button id="btn">Search</button> <!-- 搜索按鈕，點擊觸發 search 函數 -->
+        </div>
+        <div class="lower">
+            <img src="" alt="" id="image" style="display: none;"> <!-- 顯示天氣圖標 -->
+            <h2 id="temp"></h2> <!-- 顯示溫度 -->
+            <p id="cityname"></p> <!-- 顯示城市名稱 -->
+            <span><p>Description : </p><p id="adj"></p></span> <!-- 顯示天氣描述 -->
+        </div>
+    </div>
+    <script src="WW.js"></script> <!-- 引入 JavaScript 文件 -->
+</body>
+</html>
